@@ -4,7 +4,7 @@ package com.br.brq.motivation2.infra
 class MotivationsConstants private constructor() {
 
     object KEY {
-        val PERSON_NAME = "personName"
+        const val PERSON_NAME = "personName"
     }
 
     object PHRASEFILTER {
