@@ -58,21 +58,24 @@
         android:id="@+id/textPrase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonNewPhrase"
+        android:layout_below="@+id/Bar"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:layout_marginTop="32dp"
-        android:textAlignment="center"
+        android:layout_marginBottom="418dp"
         android:padding="16dp"
         android:text="Frase"
+        android:textAlignment="center"
         android:textSize="22sp" />
 
     <View
-        android:layout_width="130dp"
+        android:id="@+id/Bar"
+        android:layout_width="570dp"
         android:layout_height="3dp"
-        android:layout_below="@+id/textPrase"
+        android:layout_below="@+id/textName"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:background="@color/colorAccent"/>
+        android:background="@color/colorAccent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonNewPhrase"
@@ -82,7 +85,7 @@
         android:layout_marginBottom="16dp"
         android:padding="16dp"
         android:layout_centerHorizontal="true"
-        android:text="Nova Frase"
+        android:text="@string/nova_piada"
         android:background="@drawable/ripple_button"
         android:textColor="@color/White"/>
 </RelativeLayout>

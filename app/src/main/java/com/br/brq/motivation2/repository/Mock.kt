@@ -15,7 +15,7 @@ class Mock {
     private val HAPPY = MotivationsConstants.PHRASEFILTER.HAPPY
     private val MORNING = MotivationsConstants.PHRASEFILTER.HAPPY
 
-    /** Mudar as paralavras HAppy - All - morning*/
+    /** Mudar as piadas de dentro das categoria -> HAPPY - ALL - MORNING */
 
     private val mListPhrases: List<Phrase> = listOf(
 
