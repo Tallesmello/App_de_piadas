@@ -18,6 +18,13 @@ class Mock {
     /** Mudar as paralavras HAppy - All - morning*/
 
     private val mListPhrases: List<Phrase> = listOf(
+        Phrase( "Na manhã de seu aniversário, uma mulher disse ao marido:\n" +
+                "\n" +
+                "- Sonhei que você me dava um colar de diamantes. O que acha que isso significa?\n" +
+                "\n" +
+                "- Talvez você descubra hoje à noite - respondeu ele.\n" +
+                "\n" +
+                "Naquela noite, o homem chegou em casa com um pequeno pacote e o entregou à mulher. Ela rasgou o papel de embrulho, ansiosa, e encontrou um livro: O significado dos sonhos.", HAPPY),
         Phrase("Porque o menino estava falando no telefone deitado? -- Para não cair a ligação; --",HAPPY),
         Phrase("A enfermeira diz ao médico: Tem um homem invisível na sala de espera. O médico responde: Diga a ele que não posso vê-lo agora.",HAPPY),
         Phrase("Qual é a fórmula da água benta? H Deus Ó.", HAPPY),
