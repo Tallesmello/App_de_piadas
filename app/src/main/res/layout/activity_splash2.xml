@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="16dp"
+    tools:context=".ui.SplashActivity2">
+
+    <TextView
+        android:textSize="32sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/White"
+        android:text="Vamos começar"/>
+
+    <EditText
+        android:id="@+id/edirQualSeuNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_centerVertical="true"
+        android:textColorHint="@color/White"
+        android:textColor="@color/White"
+        android:inputType="text"
+        android:hint="Qual seu nome?"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/salvarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:textColor="@color/White"
+        android:background="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
